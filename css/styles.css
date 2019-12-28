@@ -1,9 +1,7 @@
-body{
-	font-size: 16px; /*1em*/
-	max-width: 100%;
-	min-width: 100%;
+body {
+    
 }
 
-.ClockFormat{
-	color: #000000;
+.Clock {
+    color: black;
 }

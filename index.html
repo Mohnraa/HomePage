@@ -1,25 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
-<link rel="stylesheet" href="css/styles.css">
-<script src="js/clock.js"></script>
+<html lang="es">
 <head>
 	<meta charset="UTF-8">
-	<title>Welcome back!</title>
+	<title>Homepage</title>
+	<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 	<header>
-		<section>
-			<span id="Clock" class="ClockFormat" onload="showTime()"></span>
-		</section>
-	</header>
-	<section id=sec02>
-		
-	</section>
-	<section id=sec03>
-		
-	</section>
-	<section id=sec04>
-		
-	</section>
+		<span id="Clock" class="Clock" onload="showTime()"></span>
+		<script src="js/clock.js"></script> <!-- Ejecuta el reloj -->
+		<span id="currentTemp" class="currentTemp" onload="refreshTemp()"></span>
+		<span id="maxTemp" class="limitTemps" onload="refreshTemp()"></span>
+		<span id="minTemp" class="limitTemps" onload="refreshTemp()"></span>
+		<script src="js/weather.js"></script>
+
 </body>
 </html>
