@@ -4,6 +4,30 @@
 		"selected_items":
 		[
 			[
+				"lo",
+				"longitudeL"
+			],
+			[
+				"la",
+				"latitudeL"
+			],
+			[
+				"l",
+				"longitudeL"
+			],
+			[
+				"longit",
+				"longitudeL"
+			],
+			[
+				"lati",
+				"latitudeL"
+			],
+			[
+				"coor",
+				"coords"
+			],
+			[
 				"Cur",
 				"currentT"
 			],
@@ -35,7 +59,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 536,
+				"buffer_size": 532,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -53,7 +77,7 @@
 			"file": "js/worksc.js",
 			"settings":
 			{
-				"buffer_size": 1030,
+				"buffer_size": 1945,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -152,15 +176,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 536,
+						"buffer_size": 532,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								465,
-								465
+								135,
+								135
 							]
 						],
 						"settings":
@@ -209,15 +233,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1030,
+						"buffer_size": 1945,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								1028,
+								1028
 							]
 						],
 						"settings":
@@ -226,7 +250,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 60.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -288,12 +312,16 @@
 	},
 	"select_project":
 	{
-		"height": 0.0,
+		"height": 500.0,
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"",
+				"~/Projects/RADIOCOM-LoginPage/RADIOCOM-LoginPage.sublime-project"
+			]
 		],
-		"width": 0.0
+		"width": 380.0
 	},
 	"select_symbol":
 	{
