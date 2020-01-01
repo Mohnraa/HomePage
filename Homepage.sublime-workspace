@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"latitu",
+				"latitudeL"
+			],
+			[
 				"lo",
 				"longitudeL"
 			],
@@ -59,7 +63,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 532,
+				"buffer_size": 674,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -74,10 +78,10 @@
 			}
 		},
 		{
-			"file": "js/worksc.js",
+			"file": "js/main.js",
 			"settings":
 			{
-				"buffer_size": 1945,
+				"buffer_size": 1368,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -123,6 +127,7 @@
 	},
 	"file_history":
 	[
+		"/home/mohnraa/Projects/HomePage/js/worksc.js",
 		"/home/mohnraa/Projects/HomePage/js/clock.js",
 		"/home/mohnraa/Projects/HomePage/js/weather.js",
 		"/home/mohnraa/Projects/RADIOCOM-LoginPage/css/styles.css",
@@ -167,7 +172,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -176,15 +181,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 532,
+						"buffer_size": 674,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								135,
-								135
+								90,
+								90
 							]
 						],
 						"settings":
@@ -196,7 +201,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -229,19 +234,19 @@
 				},
 				{
 					"buffer": 2,
-					"file": "js/worksc.js",
+					"file": "js/main.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1945,
+						"buffer_size": 1368,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1028,
-								1028
+								329,
+								329
 							]
 						],
 						"settings":
@@ -250,10 +255,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 60.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
