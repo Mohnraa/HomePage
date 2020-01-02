@@ -1,7 +1,71 @@
-body {
-    
+body{
+    font-size: 16px; /*1em*/
+   /* min-width: 100% auto;
+    min-height: 100% auto;*/
+    min-width: 1024px;
+    width: 0 auto;
 }
 
-.Clock {
-    color: black;
+header{
+	background: grey;
+}
+
+header article{
+	display: inline-block;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#artDateTime{
+	width: 33%;
+}
+
+#artWeather{
+	width: 57%;
+	text-align: right;
+}
+
+#artTemps{
+	width: 0 auto;
+	text-align: right;
+}
+
+#artTemps span{
+	position: relative;
+	bottom: 2px;
+}
+
+#curTemp{
+	position: relative;
+	bottom: 10px;
+	font-size: 2.2em;
+}
+
+#searchBox{
+	display: block;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	width: 583px;
+	height: 60px;
+	margin: 0 auto;
+	padding-top: 30px;
+}
+
+.colorBlanco{
+	color: white;
+}
+
+.negritas{
+	font-weight: bold;
+}
+
+.letraGrande{
+	font-size: 1.7em;
+}
+
+.letraMediana{
+	font-size: 1.4em;
 }

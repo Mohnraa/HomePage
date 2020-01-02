@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<title>Homepage</title>
@@ -7,15 +7,23 @@
 </head>
 <body>
 	<header>
-		<span id="Clock" class="Clock" onload="showTime()"></span>
-		<span id="curTemp" class="currentTemp" onload="refreshTemp()"></span>
-		<span id="maxTemp" class="limitTemps" onload="refreshTemp()"></span>
-		<span id="minTemp" class="limitTemps" onload="refreshTemp()"></span>
+		<article id="artDateTime">
+			<span id="Clock" class="colorBlanco letraGrande" onload="showTime()">15:30</span> <br>
+			<span id="Date" class="colorBlanco letraMediana" onload="showTime()">Wednesday, September 16</span>
+		</article>
+		<article id="artWeather">
+			<span id="curTemp" class="colorBlanco" onload="refreshTemp()">31°C</span>
+		</article>
+		<article id="artTemps">
+			<span id="maxTemp" class="colorBlanco letraMediana limitTemps" onload="refreshTemp()">37°C</span> <br>
+			<span id="minTemp" class="colorBlanco letraMediana limitTemps" onload="refreshTemp()">25°C</span>
+		</article>
 	</header>
+	<iframe id="searchBox" src="https://duckduckgo.com/search.html?width=450&duck=yes&prefill=HI JK" frameborder="0"></iframe>
 	<footer>
-		<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script> <!-- jQuery es cargado -->
-		<script src="js/main.js"></script> <!-- Carga Script de funcionalidades -->
-
+		<span id="textConnection" onload="testConn()">Connected to Internet</span>
+		<!-- <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+		<script src="js/main.js"></script> -->
 	</footer>
 </body>
 </html>
