@@ -13,17 +13,21 @@ header{
 header article{
 	display: inline-block;
 	padding-left: 10px;
-	padding-right: 10px;
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
 
 #artDateTime{
-	width: 33%;
+	width: 30%;
+}
+
+#artDateTime span{
+	position: relative;
+	left: 17px;
 }
 
 #artWeather{
-	width: 57%;
+	width: 55%;
 	text-align: right;
 }
 
@@ -34,11 +38,13 @@ header article{
 
 #artTemps span{
 	position: relative;
+	left: 18px;
 	bottom: 2px;
 }
 
 #curTemp{
 	position: relative;
+	left: 15px;
 	bottom: 10px;
 	font-size: 2.2em;
 }
